@@ -108,8 +108,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav #gtco-logo {
   font-size: 40px;
-  margin: -20px 0 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 20px 0;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 2px 0;
   display: block;
   color: #999999;
-  line-height: 1;
+  line-height: 1.2;
   text-transform: none;
   font-size: 15px;
 }
@@ -231,7 +231,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #gtco-header,
-#gtco-header-1,
 #gtco-counter,
 .gtco-bg {
   background-size: cover;
@@ -364,11 +363,23 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .gtco-cover.gtco-cover-sm1 {
-  height: 120px;
+  height: 100px;
 }
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-sm1 {
-    height: 120px;
+    height: 100px;
+  }
+}
+.gtco-cover.gtco-cover-sm1 .display-t,
+.gtco-cover.gtco-cover-sm1 .display-tc {
+  height: 100px;
+  display: table;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .gtco-cover.gtco-cover-sm1 .display-t,
+  .gtco-cover.gtco-cover-sm1 .display-tc {
+    height: 100px;
   }
 }
 #gtco-counter {
@@ -780,9 +791,10 @@ form label {
 #gtco-testimonial .arrow-thumb a:hover, #gtco-testimonial .arrow-thumb a:focus, #gtco-testimonial .arrow-thumb a:active {
   text-decoration: none;
 }
+
 .gtco-tabs .gtco-tab-nav {
   clear: both;
-  margin: -120px 0 0 0;
+  margin: 0 0 3em 0;
   padding: 3px;
   float: left;
   width: 100%;
