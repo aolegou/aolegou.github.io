@@ -495,14 +495,14 @@ form label {
 .gtco-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: black;
   text-transform: uppercase;
 }
 #gtco-header .display-tc h1,
 #gtco-counter .display-tc h1,
 .gtco-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 70px;
+  font-size: 100px;
   line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
