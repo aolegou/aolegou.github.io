@@ -362,7 +362,26 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 400px;
   }
 }
-
+.gtco-cover.gtco-cover-sm1 {
+  height: 100px;
+}
+@media screen and (max-width: 768px) {
+  .gtco-cover.gtco-cover-sm1 {
+    height: 100px;
+  }
+}
+.gtco-cover.gtco-cover-sm1 .display-t,
+.gtco-cover.gtco-cover-sm1 .display-tc {
+  height: 100px;
+  display: table;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .gtco-cover.gtco-cover-sm1 .display-t,
+  .gtco-cover.gtco-cover-sm1 .display-tc {
+    height: 100px;
+  }
+}
 #gtco-counter {
   height: 500px;
 }
@@ -1393,3 +1412,4 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
